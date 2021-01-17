@@ -1,0 +1,61 @@
+.task-lists{
+    padding: 5px 0;
+}
+.task-list-item-wrapper{
+    background-color: #bf07ac;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.no-tasks-added{margin: 0 10px;color: red;}
+.task-list-body{background-color: darkorange;padding: 5px 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.task-list-item{background-color: darksalmon;margin: 5px;}
+.list{
+    color: #fff;
+    height: 50px;
+    border-radius: 5px;
+}
+.list p{
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+    margin: 0;
+}
+.list p input[type='checkbox']{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.list p input[type=text]{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    width: 90%;
+}
+.list p input:focus{
+    outline: none;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+    top: 25%;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.itemsAnim-enter{
+    opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+.itemsAnim-leave{
+    opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}

@@ -1,0 +1,54 @@
+body{
+  background-color: #9266ff;
+}
+.App{
+  background-color: bisque;
+  min-height:500px;
+  width: 550px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+.to-do-task-wrapper{padding:0 15px;}
+.flex{display: flex;}
+.flex-column{flex-direction: column;}
+.flex-row{flex-direction: row;}
+.flex-wrap{flex-wrap: wrap;}
+.flex-no-wrap{flex-wrap: nowrap;}
+.flex-justify-content-center{justify-content: center;}
+.flex-justify-content-space-around{justify-content: space-around;}
+.flex-justify-content-space-between{justify-content: space-around;}
+.flex-align-items-center{align-items: center;}
+.flex-align-items-space-around{align-items: space-around;}
+.text-center{text-align: center;}
+.text-bold{font-weight: bold;}
+.p-top-bottom-10{padding: 10px 0}
+.m-top-bottom-0{margin: 0;}
+.m-top-bottom-10{margin: 10px 0;}
+.to-do-task-form input, .to-do-task-form button,.to-do-list-form input, .to-do-list-form button{color: #fff;font-weight: bold;}
+.to-do-task-form input,.to-do-list-form input{
+  background-color: rgba(27, 112, 137, 1);
+  border: 0; 
+  width: 350px;
+  height: 50px;
+  /* margin: 20px; */
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.to-do-task-form input::placeholder,.to-do-list-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+.to-do-task-form input:focus,.to-do-list-form input:focus{
+  outline: none;
+}
+.to-do-task-form button,.to-do-list-form button{
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  background-color:#084384; 
+  cursor: pointer;
+  width: 100px;
+}
+.to-do-task-form button:focus,.to-do-list-form button:focus{
+  outline: none;
+}
